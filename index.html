@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Palanquin+Dark|Poppins|Questrial|Work+Sans" rel="stylesheet"> 
+	<title>Sticky Briefs</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<a href="#main">
+			<img class="logo" src="sticky-briefs-horizontal.png" alt="logo"/>
+		</a>
+		<nav id="nav">
+			<a href="https://twitter.com/StickyBriefs" target="_blank" class="enter" >Enter Now</a>
+			<a href="#instafeed">Gallery</a>
+			<a href="#collab">Collab</a>
+			<a href="#faq">FAQ</a>
+			<a href="#about">About</a>	
+		</nav>
+	</header>
+	<section class="main" id="main">
+		<div class="social">
+			<a href="#nav"><img src="arrow-01.png"></a>
+			<a href="https://www.instagram.com/stickybriefs/" target="_blank"><img src="instagram.png"/></a>
+			<a href="https://twitter.com/StickyBriefs" target="_blank"><img src="twitter.png"/></a>
+		</div>
+		<h1>"THE BEST IDEAS <br> FIT ON A <br> STICKY NOTE."</h1>
+	</section>
+	<section class="about" id="about">
+		<div class="aboutheader">
+			<h2>1 BRIEF<br>1 WEEK<br>1 WINNER</h2>
+		</div>
+		<div class="aboutcontent">
+			<p>Sticky Briefs is a creative way to spend 5 minutes. Each week we post a new mini-brief from a new Creative Director - written on a sticky note. Then, we sit back and watch the fun as the ideas roll in - on sticky notes. After a week our judge picks a winner. It's up to you what you do with that idea next.</p>
+		</div>
+	</section>
+	<section class="faq" id="faq">
+		<h2>FAQ</h2>
+		<ol>
+			<div class="left">
+				<li><p class="question">Who can enter?</p><p class="answer">Sticky Briefs is open to everyone.</p></li>
+				<li><p class="question">When do new briefs come out?</p><p class="answer">New Sticky Briefs are usually posted on Mondays.</p></li>
+				<li><p class="question">When are submissions due?</p><p class="answer">Sticky Brief submissions are due by the Friday the brief was posted. Winners are announced on the Sunday.</p></li>
+			</div>
+			<div class="right">
+				<li><p class="question">Who are the judges?</p><p class="answer">A different Creative Director each week.</p></li>
+				<li><p class="question">What does the winner get?</p><p class="answer">A confidence boost.</p></li>
+				<li><p class="question">How do I enter Sticky Briefs?</p><p class="answer">Share or DM us your idea on Instagram or Twitter with #stickybriefs.</p></li>
+			</div>
+		</ol>
+	</section>
+	<section class="collab" id="collab">
+		<div class="collabheader">
+			<h2>WANNA<br>COLLAB?</h2>
+		</div>
+		<div class="collabcontent">
+			<p>Have a fun idea for our next brief?</p>
+			<p>Are you a brand looking for fresh new ideas?</p>
+			<p>Or do you just want to say hello?</p>
+			<p>Either way, drop us a note here.</p>
+		</div>
+		<form action="mailto:stickybriefs@gmail.com" method=post>
+			<input type="text" name="firstname" placeholder="First Name" id="firstname">
+			<input type="text" name="lastname" placeholder="Last Name" id="lastname">
+			<br>
+			<input type="text" name="email" placeholder="Email Address" id="email">
+			<br>
+			<input type="text" name="subject" placeholder="Subject" id="subject">
+			<br>
+			<input type="text" name="message" placeholder="Write your message here." id="message">
+			<br>
+			<input type="submit" id="submit">
+		</form>
+	</section>
+	<section id="instafeed">
+		
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="instafeed.min.js"></script>
+	<script src="instagram-api.js"></script>
+</body>
+	
+</html>

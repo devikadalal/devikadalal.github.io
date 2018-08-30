@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: black;
+	height: 55px;
+	margin: 0px;
+}
+
+.logo {
+	height: 35px;
+	padding: 10px;
+	float: left;
+}
+
+nav {
+	background-color: black;
+	overflow: hidden;
+	padding: 10px;
+}
+
+nav a {
+	color: #FFCC00;
+	font-family: "Helvetica Neue";
+	font-size: 14px;
+	font-weight: 300px;
+	float: right;
+	text-align: center;
+	padding: 5px 16px;
+	margin-right: 5px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FFCC00;
+	color: black;
+}
+
+nav a:active {
+	background-color: #FFCC00;
+	color: black;
+}
+
+.enter {
+	border: 3px solid #FFCC00;
+}
+
+section {
+	height: 600px;
+}
+
+.main {
+	background-color: #FFCC00;
+	margin-top: -100px;
+}
+
+.social {
+	position: fixed;
+	margin: 20px;
+}
+
+.social img {
+	width: 30px;
+	height: 30px;
+	margin: 5px;
+}
+
+h1 {
+	color: black;
+	font-family: "Helvetica Neue";
+	font-size: 120px;
+	text-align: center;
+	padding: 70px 50px;
+}
+
+.about {
+	background-color: black;
+}
+
+.aboutheader {
+	width: 60%;
+	padding-top: 15px; 
+}
+
+.about h2 {
+	font-family: "Helvetica Neue";
+	font-size: 100px;
+	text-align: left;
+	color: #FFCC00;
+	margin-left: 100px;
+	line-height: 1.25em;
+	border-bottom: 5px #FFCC00 solid;
+	width: 500px;
+}
+
+p {
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	text-align: left;
+	color: #FFCC00;
+	line-height: 1.5em;
+}
+
+.aboutcontent {
+	float: right;
+	width: 40%;
+	margin-right: 100px;
+	margin-top: -350px
+}
+
+.faq {
+	background-color: #FFCC00;
+}
+
+.faq h2 {
+	color: black;
+	font-family: "Helvetica Neue";
+	font-size: 130px;
+	padding-top: 10px;
+	border-bottom: 5px black solid;
+	width: 250px;
+	margin: auto;
+}
+
+ol {
+	font-family: "Helvetica Neue";
+	margin-top: 70px;
+}
+
+.question {
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	color: black;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+.answer {
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	color: black;
+	line-height: 1em;
+}
+
+.left {
+	width: 40%;
+	float: left;
+	margin-left: 50px;
+}
+
+.right {
+	width: 40%;
+	float: right;
+	margin-right: 50px;
+}
+
+.collab {
+	background-color: black;
+}
+
+.collabheader {
+	color: #FFCC00;
+	font-family: "Helvetica Neue";
+	font-size: 70px;
+	padding-left: 100px;
+	width: 470px;
+	padding-top: 60px;
+}
+
+.collabheader h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-bottom: 5px #FFCC00 solid;
+}
+
+.collabcontent {
+	margin-left: 100px;
+	margin-top: 10px;
+	float: left;
+	width: 40%;
+}
+
+form {
+	float: right;
+	margin-top: -250px;
+	width: 40%;
+	align: right; 
+	
+}
+
+::placeholder {
+	padding-left: 10px;
+	font-family: "Helvetica Neue"; 
+	font-size: 1em;
+}
+
+input {
+	border: 3px solid #FFCC00;
+	margin: 3px;
+	font-family: "Helvetica Neue"; 
+	font-size: 1em;
+	font-color: black;
+}
+
+#firstname {
+	width: 202px;
+	height: 30px;
+}
+
+#lastname {
+	width: 202px;
+	height: 30px;
+}
+
+#email {
+	width: 422px;
+	height: 30px;
+}
+
+#subject {
+	width: 422px;
+	height: 30px;
+}
+
+#message {
+	width: 422px;
+	height: 240px;
+}
+
+#submit {
+	width: 430px;
+	height: 40px;
+	background-color: #FFCC00;
+	font-family: "Helvetica Neue";
+	font-size: 1.5em;
+}
+
+#instafeed {
+	background-color: white;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.instagram-img {
+	width: 90%;
+	margin: 10px;
+	border: solid 5px #FFCC00; 
+}
+
