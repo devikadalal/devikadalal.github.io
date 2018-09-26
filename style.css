@@ -73,9 +73,9 @@ section {
 h1 {
 	color: black;
 	font-family: "Helvetica Neue", sans-serif;
-	font-size: 10vw;
+	font-size: 100px;
 	text-align: center;
-	padding: 100px 50px;
+	padding: 80px 50px;
 }
 
 .about {
