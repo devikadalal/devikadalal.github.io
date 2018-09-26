@@ -148,13 +148,13 @@ ol {
 }
 
 .left {
-	width: 45%;
+	width: 40%;
 	float: left;
 	margin-left: 50px;
 }
 
 .right {
-	width: 45%;
+	width: 40%;
 	float: right;
 	margin-right: 50px;
 }
@@ -169,7 +169,7 @@ ol {
 	font-size: 70px;
 	padding-left: 100px;
 	width: 470px;
-	padding-top: 80px;
+	padding-top: 90px;
 }
 
 .collabheader h2 {
